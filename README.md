@@ -2,7 +2,7 @@
 
 Gera **diagramas de topologia de rede** a partir dos backups do pfSense®, com edição manual dos equipamentos e um relatório de auditoria da rede.
 
-> 📸 _Print de um diagrama_
+![Diagrama com equipamentos adicionados à mão](docs/equipamentos.png)
 
 ## Sobre
 
@@ -22,6 +22,11 @@ Documentação de rede quase sempre está desatualizada: ninguém tem tempo de r
 A leitura do XML e a auditoria acontecem no seu navegador. Chaves IPsec, hashes de senha e IPs não vão para nenhum servidor.
 
 > O servidor já tem uma rota de auditoria com IA (`/api/audit-config`, com Gemini ou Ollama), mas ela ainda não está ligada à interface. Quando estiver, vai enviar o XML completo ao provedor escolhido.
+
+## Telas
+
+![Topologia gerada a partir do backup do pfSense: WANs, VLANs e túneis IPsec](docs/matriz.png)
+<sub>Topologia gerada a partir do backup do pfSense: WANs, VLANs e túneis IPsec</sub>
 
 ## Requisitos
 
